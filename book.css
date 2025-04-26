@@ -1,0 +1,130 @@
+.inner{
+    height:700px;
+    width:100%;
+    background-image:url("yo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic {
+    background-color:orangered;
+    height:300px;
+    width: 100%;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.one,.two,.three{
+    height:50%;
+    width: 20%;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;   
+}
+.three:hover{
+    border:2px solid black;
+}
+.one:hover{
+    border:2px solid black;
+}
+.two:hover{
+    border:2px solid black;
+}
+.sam{
+    background-color: white;
+    height:500px;
+    width:500px;
+    border:5px solid black;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-top: 50px;
+}
+.f1{
+    background-color: orangered;
+    height: 250px;
+    margin:50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+    
+}
+.pic2{
+    height:150px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top:50px;
+    left:50px;
+    background-image: url("loo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+   
+   
+}
+
+button:focus {
+    border: 3px solid red;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); */
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.b1{
+    color:orangered;
+    font-weight: bolder;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-left: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+select {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+p{
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+

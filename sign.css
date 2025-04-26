@@ -1,0 +1,95 @@
+.hero{
+
+    height:800px;
+    width: 100%;
+    background-image: url("yo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.signup{
+
+    background-color: white;
+    height:500px;
+    width:500px;
+    border:5px solid black;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+    
+}
+.f1{
+    background-color: orangered;
+    height: 250px;
+    margin:50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+    
+}
+.one{
+    display: flex;
+}
+.b1{
+    color:white;
+    font-weight: bolder;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-left: 200px;
+    height: 50px;
+    width: 100px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+
+}
+.b1:hover{
+    border:2px solid white;
+}
+
+.pic{
+    height:150px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top:50px;
+    left:50px;
+    background-image: url("loo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-top-left-radius:20% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    
+   
+   
+}
+.pic:hover{
+    border:2px solid orangered;
+}
+
+.b1:focus {
+    border: 3px solid red; 
+    outline: none; 
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); 
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
